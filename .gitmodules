@@ -12,7 +12,7 @@
 	branch = dist
 [submodule "third-party/googletest"]
 	path = third-party/googletest
-	url = https://github.com/google/googletest/
+	url = https://github.com/google/googletest.git
 	branch = v1.14.x
 [submodule "third-party/moonlight-common-c"]
 	path = third-party/moonlight-common-c
@@ -24,29 +24,32 @@
 	branch = master
 [submodule "third-party/nv-codec-headers"]
 	path = third-party/nv-codec-headers
-	url = https://github.com/FFmpeg/nv-codec-headers
+	url = https://github.com/FFmpeg/nv-codec-headers.git
 	branch = sdk/12.0
 [submodule "third-party/nvapi-open-source-sdk"]
 	path = third-party/nvapi-open-source-sdk
-	url = https://github.com/LizardByte/nvapi-open-source-sdk
+	url = https://github.com/LizardByte/nvapi-open-source-sdk.git
 	branch = sdk
 [submodule "third-party/Simple-Web-Server"]
 	path = third-party/Simple-Web-Server
-	url = https://gitlab.com/eidheim/Simple-Web-Server.git
+	url = https://gitlab.com/stertingen/Simple-Web-Server.git
 	branch = master
 [submodule "third-party/TPCircularBuffer"]
 	path = third-party/TPCircularBuffer
-	url = https://github.com/michaeltyson/TPCircularBuffer
+	url = https://github.com/michaeltyson/TPCircularBuffer.git
 	branch = master
 [submodule "third-party/tray"]
 	path = third-party/tray
-	url = https://github.com/LizardByte/tray
+	url = https://github.com/LizardByte/tray.git
 	branch = master
 [submodule "third-party/wayland-protocols"]
 	path = third-party/wayland-protocols
-	url = https://gitlab.freedesktop.org/wayland/wayland-protocols
+	url = https://gitlab.freedesktop.org/wayland/wayland-protocols.git
 	branch = main
 [submodule "third-party/wlr-protocols"]
 	path = third-party/wlr-protocols
-	url = https://gitlab.freedesktop.org/wlroots/wlr-protocols
+	url = https://gitlab.freedesktop.org/wlroots/wlr-protocols.git
 	branch = master
+[submodule "Simple-Web-Server"]
+	path = Simple-Web-Server
+	url = https://gitlab.com/eidheim/Simple-Web-Server.git
