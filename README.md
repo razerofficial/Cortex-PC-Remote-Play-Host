@@ -40,6 +40,18 @@ Razer PC Remote Play Host is a self-hosted game streaming solution developed as 
 | **CPU**   | - **AMD:** Ryzen 5 or higher<br>- **Intel:** Core i5 or higher |
 | **Network** | Host: CAT5e Ethernet or better<br>Client: CAT5e Ethernet or better |
 
+
+## Usage
+
+Refer to LizardByte's documentation hosted on Read the How to [build](https://docs.lizardbyte.dev/projects/sunshine/en/latest/building/build.html). All features are only guaranteed to work when integrated with [Razer Cortex](https://www.razer.com/cortex). 
+
+Therefore, you must first install Razer Cortex and then install Razer PC Remote Host within Razer Cortex.
+
+Then, use the files you compiled to overwrite files that in this directory.
+>%localappdata%\Razer\Razer Cortex\RemotePlay\Host
+
+And, Click **START HOSTING** button in **REMOTE PLAY** - **RUN AS HOST**.
+
 ## Support
 
 For additional information, refer to the [Razer Cortex FAQ](https://mysupport.razer.com/app/answers/detail/a_id/6104/~/razer-cortex-10-support-%26-faqs).
