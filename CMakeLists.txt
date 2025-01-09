@@ -15,7 +15,7 @@ and Nvidia GPUs for hardware encoding. Software encoding is also available. You 
 Razer Remote Play client on a variety of devices. A web UI is provided to allow configuration, and client pairing, from \
 your favorite web browser. Pair from the local server or any mobile device.")
 
-#set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     message(STATUS "Setting build type to 'Release' as none was specified.")

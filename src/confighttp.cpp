@@ -51,7 +51,7 @@
 
 #if RAZER_WEB_API == 1
 
-#define ENABLE_SUNSHINE_WEB_UI
+//#define ENABLE_SUNSHINE_WEB_UI
 
 #define ACCESS_CONTROL_ALLOW_ORIGIN "*"
 #define ACCESS_CONTROL_ALLOW_METHODS "GET, POST, PUT, DELETE, OPTIONS"
@@ -975,7 +975,7 @@ void
               config::sunshine.razer_uuid = value;
           }
 
-          BOOST_LOG(debug) << kv.first << "= " << value << std::endl;
+          //BOOST_LOG(debug) << kv.first << "= " << value << std::endl;
        }
     }
     catch (std::exception &e) {
